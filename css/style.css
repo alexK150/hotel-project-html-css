@@ -36,6 +36,15 @@ p {
     color: #3b5998;
 }
 
+.text-shadow {
+    text-shadow: #3b5998 2px 2px 3px
+}
+
+.text-minor {
+    color: black;
+    text-shadow: #444444 0 0 5px;
+}
+
 .lead {
     font-size: 18px;
 }
@@ -77,6 +86,7 @@ p {
 
 .large-heading {
     font-size: 40px;
+    line-height: 1.2;
 }
 
 .clr {
@@ -107,7 +117,7 @@ p {
     color: white;
 }
 
-#navbar h1 {
+#navbar .logo {
     float: left;
     padding-top: 20px;
 }
@@ -157,7 +167,7 @@ p {
 
 /*Home Info*/
 #home-info {
-    height: 400px;
+    height: 450px;
 }
 
 #home-info .info-img {
@@ -214,7 +224,7 @@ p {
 
 /*Feedback*/
 #feedback {
-    height: 600px;
+    height: 100%;
     background: url("../img/test-bg.jpg") no-repeat center center/cover;
     padding-top: 100px;
 }
